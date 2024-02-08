@@ -29,4 +29,46 @@
   - Provided support for the community of developers and designers using the UI library
   - Coordinated finances between the client and Accenture, managing $1.5MM+ annually
 
-  - *User Experi
+  - *User Experience Architect*  
+    Sept. 2018 - Sept. 2019
+    - Designed the site map for an informational site on the client's design standards
+    - Communicated with client stakeholders to convert business requirements into UI wireframes
+    - Facilitated user research sessions to determine optimal menu structure for the site
+
+---
+
+## Projects
+
+- **[Crawsword.xyz](www.crawsword.xyz)**  
+  *Javascript, Angular, Python, AWS, Amplify*  
+  May 2022 -- Present
+  - Designed and built a word game web app using Angular and Bootstrap for the frontend
+  - Utilized AWS Amplify for hosting and continuous deployment
+  - Used Python to identify suitable crossword clues from a dataset of 700k+
+
+- **[mood](https://wecraw.github.io/mood/)**  
+  *Spotify API, Javascript, Angular, Github Pages*  
+  Sept. 2018 -- Oct. 2018
+  - Built a data visualizer allowing users to analyze their Spotify listening history
+  - Visualized three major characteristics of listening history: Valence, Danceability, and Energy
+  - Deployed the application using Github Pages for zero-cost hosting
+
+---
+
+## Education
+
+**University of Illinois at Urbana-Champaign**  
+*Urbana-Champaign, IL*  
+Bachelor of Science in Aerospace Engineering, with Honors  
+Aug. 2014 -- May 2018  
+
+*GPA: 3.66/4.0* 
+
+---
+
+## Technical Skills
+
+- **Languages**: Javascript/Typescript, HTML/CSS, YAML, Python, Java, MATLAB
+- **Frameworks**: React, Node.js, Next.js, Angular, Bootstrap, Material UI, FastAPI
+- **Developer Tools**: Git, Azure Dev Ops, Jira, AWS, VS Code, Visual Studio, IntelliJ, Copilot, ChatGPT
+- **Additional Skills**: UI/UX Design, User Research, Web Accessibility, Design Systems, Project Management, Agile
