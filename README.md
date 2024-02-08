@@ -1,212 +1,32 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+# William Crawford
 
-\documentclass[letterpaper,11pt]{article}
+630-284-9001 | [will@ccrawford.org](mailto:will@ccrawford.org) | [linkedin.com/in/wecraw](https://www.linkedin.com/in/wecraw/) | [github.com/wecraw](https://github.com/wecraw)
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\input{glyphtounicode}
+---
 
+## Experience
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
+### Accenture
+**Seattle, WA**
 
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
+- **Software Engineering Manager**  
+  Sept. 2023 -- Present
+  - Managed a team of 20 engineers building a change management app in Next.js + React
+  - Assisted with client demos by building custom, branded versions of the application
+  - Ensured WCAG Level AA accessibility compliance by enhancing 100+ UI components with keyboard controls and screen reader compatibility
 
+- **Software Engineering Manager**  
+  March 2023 -- Aug. 2023
+  - Implemented a UI + UX redesign for a compliance management tool
+  - Developed 12 new React pages for a productivity software suite used by 300MM+ users monthly
+  - Oversaw a team of 7 engineers and ensured the on-time delivery of the scope of work
+  - Delivered new onboarding documents, reducing onboarding time from several weeks to 3 days
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+- **Software Engineer and Team Lead**  
+  Oct. 2019 -- Dec. 2022
+  - Led a team of 6 developers building a Javascript UI library with 200+ components
+  - Architected and oversaw development of a documentation website for the UI library, used by 500+ designers, developers, and managers each month
+  - Provided support for the community of developers and designers using the UI library
+  - Coordinated finances between the client and Accenture, managing $1.5MM+ annually
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
-
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
-\begin{center}
-    \textbf{\Huge \scshape William Crawford} \\ \vspace{1pt}
-    \small 630-284-9001 $|$ \href{mailto:will@ccrawford.org}{\underline{will@ccrawford.org}} $|$ 
-    \href{https://www.linkedin.com/in/wecraw/}{\underline{linkedin.com/in/wecraw/}} $|$
-    \href{https://github.com/wecraw}{\underline{github.com/wecraw}}
-\end{center}
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-\textbf{\large{Accenture}}\vspace{-21pt}\begin{flushright}\textbf{Seattle, WA}\end{flushright}
-\vspace{-15pt}
-    
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Accenture Internal}{}
-      {Software Engineering Manager}{Sept. 2023 -- Present}
-      \resumeItemListStart
-        \resumeItem{Manage a team of 20 engineers building a change management app in Next.js + React}
-        \resumeItem{Assist with client demos by building custom, branded versions of the application}
-        \resumeItem{Ensure WCAG Level AA accessibility compliance by enhancing 100+ UI components with \\ keyboard controls and screen reader compatibility}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Major Technology Company}{}
-      {Software Engineering Manager}{March 2023 -- Aug. 2023}
-      \resumeItemListStart
-        \resumeItem{Implemented a UI + UX redesign for a compliance management tool}
-        \resumeItem{Developed 12 new React pages for a productivity software suite used by 300MM+ users monthly}
-        \resumeItem{Oversaw a team of 7 engineers and ensured the on-time delivery of the scope of work}
-        \resumeItem{Delivered new onboarding documents, reducing onboarding time from several weeks to 3 days}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Major Telecommunications Company}{}
-      {Software Engineer and Team Lead}{Oct. 2019 -- Dec. 2022}
-      \resumeItemListStart
-        \resumeItem{Led a team of 6 developers building a Javascript UI library with 200+ components}
-        \resumeItem{Architected and oversaw development of a documentation website for the UI library, used by \\ 500+ designers, developers, and managers each month}
-        \resumeItem{Provided support for the community of developers and designers using the UI library}
-        \resumeItem{Coordinated finances between the client and Accenture, managing \$1.5MM+ annually}
-      \resumeItemListEnd
-   \resumeSubSubheading
-    {User Experience Architect}{Sept. 2018 - Sept. 2019}
-    \resumeItemListStart
-       \resumeItem{Designed the site map for an informational site on the client's design standards}
-       \resumeItem{Communicated with client stakeholders to convert business requirements into UI wireframes}
-       \resumeItem{Facilitated user research sessions to determine optimal menu structure for the site}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{\href{www.crawsword.xyz}{{Crawsword.xyz}}} $|$ \emph{Javascript, Angular, Python, AWS, Amplify}}{May 2022 -- Present}
-          \resumeItemListStart
-            \resumeItem{Designed and built a word game web app using Angular and Bootstrap for the frontend}
-            \resumeItem{Utilized AWS Amplify for hosting and continuous deployment}
-            \resumeItem{Used Python to identify suitable crossword clues from a dataset of 700k+}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{\href{https://wecraw.github.io/mood/}{{mood}}} $|$ \emph{Spotify API, Javascript, Angular, Github Pages}}{Sept. 2018 -- Oct. 2018}
-          \resumeItemListStart
-            \resumeItem{Built a data visualizer allowing users to analyze their Spotify listening history}
-            \resumeItem{Visualized three major characteristics of listening history: Valence, Danceability, and Energy}
-            \resumeItem{Deployed the application using Github Pages for zero-cost hosting}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}
-      {Bachelor of Science in Aerospace Engineering, with Honors }{Aug. 2014 -- May 2018}
-
-  \resumeSubHeadingListEnd
-  \vspace{-3pt}
-  \hspace{7pt}
-  \textit{\small GPA: 3.66/4.0} 
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Javascript/Typescript, HTML/CSS, YAML, Python, Java, MATLAB} \\
-     \textbf{Frameworks}{: React, Node.js, Next.js, Angular, Bootstrap, Material UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Azure Dev Ops, Jira, AWS, VS Code, Visual Studio, IntelliJ, Copilot, ChatGPT} \\
-      \textbf{Additional Skills}{: UI/UX Design, User Research, Web Accessibility, Design Systems, Project Management, Agile} \\
-    }}
- \end{itemize}
-
-
-%-------------------------------------------
-\end{document}
+  - *User Experi
