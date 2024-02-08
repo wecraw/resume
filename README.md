@@ -10,9 +10,9 @@
 
 - **Accenture Internal - Software Engineering Manager**  
   Sept. 2023 - Present
-  - Managed a team of 20 engineers building a change management app in Next.js + React
-  - Assisted with client demos by building custom, branded versions of the application
-  - Ensured WCAG Level AA accessibility compliance by enhancing 100+ UI components with keyboard controls and screen reader compatibility
+  - Manage a team of 20 engineers building a change management app in Next.js + React
+  - Assist with client demos by building custom, branded versions of the application
+  - Ensure WCAG Level AA accessibility compliance by enhancing 100+ UI components with keyboard controls and screen reader compatibility
 
 - **Major Technology Company - Software Engineering Manager**  
   March 2023 - Aug. 2023
