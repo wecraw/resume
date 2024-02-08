@@ -38,7 +38,7 @@
 
 ## Projects
 
-- **[Crawsword.xyz](www.crawsword.xyz)**  
+- **[Crawsword.xyz](https://www.crawsword.xyz)**  
   *Javascript, Angular, Python, AWS, Amplify*  
   May 2022 -- Present
   - Designed and built a word game web app using Angular and Bootstrap for the frontend
