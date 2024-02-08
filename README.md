@@ -57,11 +57,9 @@
 ## Education
 
 **University of Illinois at Urbana-Champaign**  
-*Urbana-Champaign, IL*  
 Bachelor of Science in Aerospace Engineering, with Honors  
-Aug. 2014 -- May 2018  
-
-*GPA: 3.66/4.0* 
+Aug. 2014 - May 2018  
+GPA: 3.66/4.0
 
 ---
 
