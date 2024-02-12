@@ -65,7 +65,8 @@ GPA: 3.66/4.0
 
 ## Technical Skills
 
-- **Languages**: Javascript/Typescript, HTML/CSS, YAML, Python, Java, MATLAB
-- **Frameworks**: React, Node.js, Next.js, Angular, Bootstrap, Material UI, FastAPI
-- **Developer Tools**: Git, Azure Dev Ops, Jira, AWS, VS Code, Visual Studio, IntelliJ, Copilot, ChatGPT
-- **Additional Skills**: UI/UX Design, User Research, Web Accessibility, Design Systems, Project Management, Agile
+- **Languages**: Javascript, Typescript, HTML, CSS, YAML, Python, Java, SQL, GraphQL, MATLAB
+- **Frameworks**: React, Node.js, Next.js, Angular, Bootstrap, Material UI, SCSS
+- **Developer Tools**: Git, Azure Dev Ops, Jira, AWS, VS Code, Visual Studio, IntelliJ, Copilot, ChatGPT, Quickbase
+- **Additional Skills**: UI/UX Design, User Research, Web Accessibility, Design Systems, Project Management, Agile, 
+      Content Management Systems (CMS), RESTful APIs
