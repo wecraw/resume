@@ -41,7 +41,7 @@
 - **[Crossrace.xyz](https://www.crossrace.xyz)**  
   *WebSocket API, AWS (Lambda, API Gateway), Javascript, Angular*  
   July 2024 -- Present
-  -Designed and developed a multiplayer word game, using Angular for the frontend and the WebSocket API with AWS Lambda for the backend
+  - Designed and developed a multiplayer word game, using Angular for the frontend and the WebSocket API with AWS Lambda for the backend
   - Interviewed a focus group of 20 beta testers to gather feedback and feature requests
 
 - **[Crawsword.xyz](https://www.crawsword.xyz)**  
