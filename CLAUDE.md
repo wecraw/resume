@@ -4,19 +4,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This repo holds Will Crawford's resume in two formats:
-- `WillCrawford_Resume_2024.tex` — the canonical source (LaTeX)
-- `WillCrawford_Resume_2024.pdf` — the compiled output, checked in alongside the source
+This repo holds Will Crawford's resume in several formats:
+- `WillCrawford_Resume_2026.tex` — the canonical source (LaTeX)
+- `WillCrawford_Resume_2026.pdf` — the compiled output, checked in alongside the source
 - `README.md` — a Markdown mirror of the resume content
+- `index.html` / `resume.html` — a static web version of the resume (see below)
 
-When editing resume content, update **both** the `.tex` file and `README.md` to keep them in sync.
+When editing resume content, update the `.tex` file, `README.md`, **and** the HTML pages to keep them in sync.
 
 ## Building
 
 Compile the LaTeX source to PDF with:
 
 ```bash
-pdflatex WillCrawford_Resume_2024.tex
+pdflatex WillCrawford_Resume_2026.tex
 ```
 
 This requires a LaTeX distribution (e.g. MacTeX or TeX Live). After compiling, the updated `.pdf` should be committed alongside any `.tex` changes.
@@ -33,3 +34,14 @@ The `.tex` file is based on [Jake Gutierrez's resume template](https://github.co
 - `\resumeItemListStart` / `\resumeItemListEnd` — wraps bullet lists under a subheading
 
 Sections follow the order: Experience → Projects → Education → Technical Skills.
+
+## Static Web Version (`index.html` + `resume.html`)
+
+Two self-contained HTML files (inline `<style>`, no build step or dependencies), mirroring izs.me's structure:
+
+- `index.html` — a minimalist landing page: contact, a condensed Work list (dates + employer + role, no bullets), a few "Stuff I Do" links, and a short School blurb. Ends with `[longer]` (→ `resume.html`) and `[pdf]` links.
+- `resume.html` — the full résumé (every role with accomplishment bullets, Projects, Education, Technical Skills). Ends with a `[shorter]` link back to `index.html`.
+
+Both emulate the "back-to-markdown" aesthetic of [izs.me](https://izs.me/): semantic HTML rendered in a monospace column so it *looks* like Markdown source — CSS generated content adds the `#`/`##` heading prefixes (teal), `*` list bullets (amber), `**`/`_` emphasis markers, `---` rules, and `[ ]` brackets around links. The `<style>` block is identical in both files; if you change it, change it in both.
+
+When updating content: `index.html` is the condensed view and `resume.html` is the full one (kept in sync with `README.md`). The markdown-style markers are purely CSS (`::before`/`::after`) — write clean semantic HTML (`<h2>`, `<ul>`, `<strong>`, `<a>`) and let the stylesheet decorate it; do not hand-type the `#`, `*`, or `[ ]` characters.
