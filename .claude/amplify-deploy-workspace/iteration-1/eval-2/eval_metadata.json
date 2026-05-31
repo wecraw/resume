@@ -1,0 +1,10 @@
+{
+  "eval_id": 2,
+  "eval_name": "explicit-amplify-deploy",
+  "prompt": "deploy the resume website to Amplify",
+  "assertions": [
+    {"text": "All four AWS CLI commands run in the correct order"},
+    {"text": "Polls until SUCCEED or FAILED status"},
+    {"text": "Reports job status and the amplifyapp.com URL"}
+  ]
+}

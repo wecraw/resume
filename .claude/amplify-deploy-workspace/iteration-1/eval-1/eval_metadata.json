@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "push-site-live",
+  "prompt": "push the site live",
+  "assertions": [
+    {"text": "Correctly interprets 'push the site live' as an Amplify deploy"},
+    {"text": "Executes the full deploy sequence (zip → create-deployment → upload → start-deployment → poll)"},
+    {"text": "Reports success with the live URL"}
+  ]
+}

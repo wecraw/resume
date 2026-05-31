@@ -1,0 +1,12 @@
+{
+  "eval_id": 0,
+  "eval_name": "direct-deploy-request",
+  "prompt": "do an amplify deployment",
+  "assertions": [
+    {"text": "Packages index.html, resume/, and WillCrawford_Resume_2026.pdf into a zip"},
+    {"text": "Calls aws amplify create-deployment with app-id d107gyx2unpg5z"},
+    {"text": "Uploads zip via curl to the pre-signed S3 URL"},
+    {"text": "Calls aws amplify start-deployment with the returned job-id"},
+    {"text": "Reports the live URL https://main.d107gyx2unpg5z.amplifyapp.com"}
+  ]
+}
