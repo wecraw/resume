@@ -147,11 +147,16 @@
         content: "---";
         color: #999;
       }
+      html {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       body {
-        width: 80ex;
-        max-width: 100%;
-        margin: 1em auto;
-        padding: 0 1ex;
+        width: fit-content;
+        max-width: 80ex;
+        padding: 1em 1ex;
         box-sizing: border-box;
         line-height: 1.5;
       }
@@ -324,6 +329,6 @@
 
     <hr />
 
-    <p><a href="index.html">shorter</a></p>
+    <p><a href="/">shorter</a></p>
   </body>
 </html>

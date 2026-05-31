@@ -136,11 +136,15 @@
         content: "---";
         color: #999;
       }
+      html {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       body {
-        width: 80ex;
-        max-width: 100%;
-        margin: 1em auto;
-        padding: 0 1ex;
+        width: fit-content;
+        padding: 1em 1ex;
         box-sizing: border-box;
       }
       a {
@@ -204,7 +208,7 @@
     </ul>
 
     <p>
-      <a href="resume.html">longer</a>
+      <a href="resume/">longer</a>
       <a href="WillCrawford_Resume_2026.pdf">pdf</a>
     </p>
   </body>
