@@ -52,7 +52,7 @@ After any edit to the HTML files, always:
 
 1. **Deploy to Amplify** (app ID `d107gyx2unpg5z`, branch `main`) via manual zip upload:
    ```bash
-   zip -r deploy.zip index.html resume/index.html CNAME
+   zip -r deploy.zip index.html resume/index.html CNAME WillCrawford_Resume_2026.pdf
    UPLOAD=$(aws amplify create-deployment --app-id d107gyx2unpg5z --branch-name main --output json)
    JOB_ID=$(echo "$UPLOAD" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['jobId'])")
    UPLOAD_URL=$(echo "$UPLOAD" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['zipUploadUrl'])")
@@ -68,4 +68,4 @@ After any edit to the HTML files, always:
    git push
    ```
 
-The two HTML files are `index.html` (root) and `resume/index.html` (full resume) — always include both in the zip even if only one changed.
+Always include `index.html`, `resume/index.html`, `CNAME`, and `WillCrawford_Resume_2026.pdf` in the zip, even if only one file changed.
